@@ -7,10 +7,230 @@ body {
     height: 100px;
     padding: 50px;
 }
-.box1 {
+.box-1 {
     background-color: steelblue;
-    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
 }
-.box2 {
+.box-2 {
     background-color: tomato;
+}
+
+
+.caja1 {
+    background-color: rgb(205, 92, 92);
+}
+.caja2 {
+    background-color: rgb(240, 128, 128);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja3 {
+    background-color: rgb(250, 128, 114);
+}
+.caja4 {
+    background-color: rgb(233, 150, 122);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja5 {
+    background-color: rgb(255, 160, 122);
+}
+.caja6 {
+    background-color: rgb(220, 20, 60);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja7 {
+    background-color: rgb(255, 0, 0);
+}
+.caja8 {
+    background-color: rgb(178, 34, 34);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja9 {
+    background-color: rgb(139, 0, 0);
+}
+
+
+.caja10 {
+    background-color: rgb(255, 192, 203);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja11 {
+    background-color: rgb(255, 182, 193);
+
+}
+.caja12 {
+    background-color: rgb(255, 105, 180);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja13 {
+    background-color: rgb(255, 20, 147);
+
+}
+.caja14 {
+    background-color: rgb(199, 21, 133);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja15 {
+    background-color: rgb(219, 112, 147);
+}
+
+
+.caja16 {
+    background-color: rgb(255, 215, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja17 {
+    background-color: rgb(255, 255, 0);
+}
+.caja18 {
+    background-color: rgb(255, 255, 224);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja19 {
+    background-color: rgb(255, 250, 205);
+}
+.caja20 {
+    background-color: rgb(250, 250, 210);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja21 {
+    background-color: rgb(255, 239, 213);
+}
+.caja22 {
+    background-color: rgb(255, 228, 181);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja23 {
+    background-color: rgb(255, 218, 185);
+}
+.caja24 {
+    background-color: rgb(238, 232, 170);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja25 {
+    background-color: rgb(240, 230, 140);
+}
+.caja26 {
+    background-color: rgb(189, 183, 107);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+
+
+.caja27  {
+    background-color: rgb(230, 230, 250);
+}
+.caja28 {
+    background-color: rgb(216, 191, 216);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja29  {
+    background-color: rgb(221, 160, 221);
+}
+.caja30 {
+    background-color: rgb(238, 130, 238);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja31  {
+    background-color: rgb(218, 112, 214);
+}
+.caja32 {
+    background-color: rgb(225, 0, 225);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja33  {
+    background-color: rgb(255, 0, 255);
+}
+.caja34 {
+    background-color: rgb(186, 85, 211);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja35  {
+    background-color: rgb(147, 112, 219);
+}
+.caja36 {
+    background-color: rgb(102, 51, 153);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+
+
+.caja37  {
+    background-color: rgb(173, 255, 47);
+}
+.caja38 {
+    background-color: rgb(127, 255, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja39  {
+    background-color: rgb(124, 252, 0);
+}
+.caja40 {
+    background-color: rgb(0, 255, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja41  {
+    background-color: rgb(50, 205, 50);
+}
+.caja42 {
+    background-color: rgb(152, 251, 152);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.caja43  {
+    background-color: rgb(144, 238, 144);
+}
+.caja44 {
+    background-color: rgb(0, 250, 154);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
+}.caja45  {
+    background-color: rgb(0, 255, 127);
+}
+.caja46 {
+    background-color: rgb(60, 179, 113);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
 }
