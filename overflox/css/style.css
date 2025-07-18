@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-image: url("https://i.pinimg.com/736x/77/33/9e/77339ea8aff6440905348ffffdbc1dd9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+.title {
+
+    text-align: center;
+    font-family: Arial;
+    color: #000000;
+
+}
+
+.container {
+    margin: auto;
+    box-shadow: 0px 10px 20px;
+    width: 600px;
+    border-radius: 15px;
+    height: auto;
+    background-color: rgb(225, 233, 255);
+    padding: 10px 20px;
+    overflow: clip;
+    /* Para el texto */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 1s ease;
+}
+.container:hover {
+    overflow: auto;
+    white-space: normal;
+    max-height: 200px;
+}
+
+.box-px {
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    width: 100px;
+    background-color: rgb(178, 197, 255);
+    overflow: hidden;
+}
+.box-in {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 2in;
+    background-color: rgb(178, 197, 255);
+    overflow: hidden;
+}
+
+.box-cm {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 2.54cm;
+    background-color: rgb(178, 197, 255);
+    overflow: hidden;
+}
+
+.box-mm {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 25.4mm;
+    background-color: rgb(129, 161, 255);
+    overflow: hidden;
+}
+
+.box-pt {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 50pt;
+    background-color:  rgb(129, 161, 255);
+    overflow: hidden;
+}
+
+.box-pc {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 20pc;
+    background-color: rgb(129, 161, 255);
+    overflow: hidden;
+}
+
+:root {
+    font-size: 15px;
+}
+
+.body {
+    font-size: 20px;
+}
+
+.box-em {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 1em;
+    background-color: rgb(96, 104, 254);
+    overflow: hidden;
+}
+
+.box-rem {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 20rem;
+    background-color: rgb(79, 123, 255);
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(79, 123, 255);
+
+}
+
+.box-per {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 10%;
+    background-color: rgb(79, 123, 255);
+    overflow: hidden;
+}
+
+.box-vh {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 90vh;
+    background-color: rgb(79, 123, 255);
+    overflow: hidden;
+}
+
+.box-vw {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 90vw;
+    background-color: rgb(79, 123, 255);
+    overflow: hidden;
+}
+.box-vmin {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 30vmin;
+    background-color: rgb(79, 123, 255);
+    overflow: hidden;
+}
+.box-vmax {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 50vmax;
+    background-color: rgb(79, 123, 255);
+    overflow: hidden;
+}
