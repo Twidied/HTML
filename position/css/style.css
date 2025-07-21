@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(255, 142, 142);
+    color: black;
+    width: 700px;
+    max-width: 800px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.item {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+
+.item .item-hijo {
+    position: static;
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    color: rgb(255, 240, 240);
+    padding: 5px;
+    background-color: rgb(255, 78, 78);
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.item .item-hijo i {
+    margin: 25% auto;
+    display: block;
+}
+
+.item .item-hijo-azul {
+    position: relative;
+    background-color: rgb(57, 162, 255);
+    color: aliceblue;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    bottom: 35px;
+    border-radius: 35px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.item .item-hijo-fucsia {
+    position: absolute;
+    background-color: rgb(73, 158, 71);
+    color: aliceblue;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.item [class*="item-hijo-"] i {
+    margin: 25%auto;
+    display: block;
+}
+
+.footer {
+    position: fixed;
+    background-color: rgb(255, 120, 120);
+    color: black;
+    text-align: center;
+    width: 100vw;
+    height: 75px;
+    bottom: 0px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 182, 182);
+    color: black;
+    width: 100vw;
+    height: 80px;
+    text-align: center;
+    z-index: 2;
+}
+
+.header > h1 {
+    padding-top: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 80px;
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(255, 161, 161);
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.nav ul li a{
+    display: inline-block;
+    color: black;
+}
